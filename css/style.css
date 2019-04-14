@@ -1,17 +1,27 @@
+body {
+    background-color: rgb(243, 236, 236);
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.00em;
+    font-weight: normal;
+}
 
-    
-       body {
-        background-color: rgb(243, 236, 236);
-        text-align: center;
-        margin: 20px 0 0 0;
-        font-size: 1.00em;
-        font-weight: normal;
-    }
-.logo { 
+.logo {
     background-color: rgb(250, 179, 46);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
 a {
     color: black;
+}
+
+.grow { 
+    padding: 90px; 
+    backgroung-color: cinza; 
+    color: white; 
+}
+.grow:hover { 
+    padding: 60px; 
+    transição: 1s; 
 }
